@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 100%;
+    --cor-border-geral:#000;
+    --cor-padrao-fonte:#000;
+    --font-padrao:helvetica;
+    --font-family: helvetica;
+    --font-cor-titulo:#ffff;
+    --font-cor-botao: #da1512;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: var(--font-padrao);
+    background-color:#212121;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header, main, footer {
+    height: 100%;
+    width: 100%;
+    margin: 3px auto 3px auto;
+}
+
+header#top-header{
+    border-bottom:1px solid var(--cor-border-geral);
+    height: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+header#top-header div, header#top-header nav {
+    width: 40%;
+}
+
+header#top-header nav {
+    background-color:#212121;
+    height: 40px;
+}
+
+header#top-header div {
+    color: var(--font-cor-titulo);
+    font-family: var(--font-padrao);
+    font-size: 1.2rem;
+    align-items: center;
+    background-color:#212121;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50%;
+
+}
+
+header#top-header nav a {
+    width: 100%;
+    width: 120px;
+    justify-content:center;
+    color:#ffff;
+}
+
+nav a {
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+a#botao{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+a#fixo {
+    width: 100px;
+    height: 40px;
+    background-color:#212121;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+a.flex:hover {
+    background-color: var(--font-cor-botao);
+    color:#ffff;
+}
+
+a#forma{
+     width:100px;
+     height: 35px;
+    background-color:chocolate;
+    margin:auto;
+    -webkit-border-radius: 100px;
+    align-items: center;
+    justify-content: center; 
+}
+
+main {
+    background-color:#ffff;
+    height: 800px;
+    margin: 5px auto 5px auto;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color:#212121;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div#tiacademy {
+    text-align: center;
+    padding: 25px;
+}
+
+div#box-main{
+     background-color:#ffff;
+     width:750px;
+     height:800px;
+     display:flex;
+     margin: auto;
+     align-items: center;
+}  
+
+input {
+    font-family: helvetica;
+    height:40px;
+    width:340px;
+    padding: 3px;
+    border: 1px solid#212121 ;
+    cursor: pointer;  
+}
+
+li {
+    color:#ffff;
+}
+
+.txt {
+    border: 2px solid#212121;
+    height: 40;
+    width: 340px;
+    cursor: pointer;
+}
+
+.pontilhado {
+    border-right: 1px dashed#212121;
+    width:50%;
+}
+
+p{
+    border: solid 30px#fff;
+    width: 100%;
+    height: auto;
+    background-color:#fff;
+    font-family: helvetica;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#tiacademy {
+    color:#ffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica; 
+}

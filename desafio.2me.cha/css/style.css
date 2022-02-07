@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 100%;
+    --cor-border-geral:#000;
+    --cor-padrao-fonte:#000;
+    --cor-padrao-geral:#000;
+    --font-cor-titulo:#ffff;
+    --font-padrao: verdana;
+}
+
+header, main, footer {
+    width: 100%;
+    margin: 3px auto 3px auto;
+}
+
+header#top-header {
+    border-bottom: 1px solid var(--cor-border-geral);
+    color: var(--font-cor-titulo);
+    font-family: var(--font-padrao);
+    background-image: linear-gradient(to top, #2196F3, #3D5AFE, #0D47A1);
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+header#top-header h1 , header#top-header nav {
+    height: 30%;
+}
+
+header#top-header nav {
+    align-items: center;
+    text-align: center;
+}
+
+header#top-header h1 {
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+ul {
+   align-items: center;
+   text-align: center;
+   padding: 55px;
+   color:#2196F3;
+}
+
+.material-icons {
+    font-size: 64px;
+}
+
+div#forma {
+    width: 85px;
+    height: 85px;
+    background-color:#ffff;
+    margin: auto;
+    -webkit-border-radius:100px;
+}
+
+main {
+    height: 650px;
+    background-color:#ffff;
+    padding: 70px;
+    --font-padrao: verdana;
+    font-family: var(--font-padrao);
+}
+
+section {
+    height: 450px;
+    width: 480px;
+    background-color:#ffff;
+    border: 2px solid#ffff;
+    margin: auto;
+}
+
+fieldset {
+    width: 380px;
+    height:430px;
+    margin: auto;
+    padding: 20px;
+    background-color:#ffff;
+    border: 2px solid#ffff;
+}
+
+input {
+    width:410px;
+    height: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+   
+input[type="submit"] {
+    background-color:#2196F3;
+    height: 45px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid#000;
+    cursor: pointer;
+
+}
+
+input[value="BUSCAR"] {
+    color:#ffff;
+}
